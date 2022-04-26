@@ -1,0 +1,9 @@
+{
+	"id": "obsidian-note-types",
+	"name": "Note types",
+	"author": "Dmitry Dobryakov",
+	"version": "0.2.0",
+	"minAppVersion": "0.9.12",
+	"description": "Create different note types with templates for content, name and location.",
+	"isDesktopOnly": true
+}

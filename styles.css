@@ -1,0 +1,78 @@
+.nt input:disabled {
+	opacity: 0.2;
+}
+
+.nt-hint-end {
+	color: aqua;
+	font-size: smaller;
+	text-align: end;
+	font-style: italic;
+}
+
+.nt-hint {
+	color:deepskyblue;
+	font-style: italic;
+	margin: 0px;
+}
+
+.nt-margin-left {
+	margin-left: 20px;
+}
+
+.nt-margin {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.nt-tm-setting {
+	border-top-style: dotted;
+}
+
+.nt-tm-settings {
+	margin-left: 30px;
+}
+
+/* Custom setting */
+
+.nt-custom-name-div {
+	font-weight: bold;
+	font-size:large;
+}
+
+.nt-custom-flex {
+	display: flex;
+	align-items: center;
+}
+
+/* -------------- */
+
+/* Sortable */
+
+.nt-sortable-ghost {
+	opacity: 0;
+	/* pointer-events:none; */
+}
+
+.nt-sortable-element {
+	border-top: 1px solid var(--background-modifier-border);
+	padding: 18px 0 18px 0;
+}
+
+.nt-sortable-handle {
+	cursor: move;
+	/* cursor: -webkit-grabbing; */
+}
+
+/* .nt-sortable-chosen { } */
+/* .nt-sortable-drag { } */
+
+/* -------------- */
+
+.nt-entermodal-div {
+    text-align: center;
+}
+
+.nt-entermodal-input {
+    flex-grow: 1;
+    width: 100%;
+}

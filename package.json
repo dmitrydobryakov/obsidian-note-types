@@ -1,0 +1,32 @@
+{
+	"name": "obsidian-note-types",
+	"version": "0.2.0",
+	"description": "Note types for Obsidian: templates for content, name and location.",
+	"main": "main.js",
+	"scripts": {
+		"build": "rollup --config rollup.config.js"
+	},
+	"author": "Dmitry Dobryakov",
+	"license": "ISC",
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^15.1.0",
+		"@rollup/plugin-node-resolve": "^9.0.0",
+		"@rollup/plugin-typescript": "^6.0.0",
+		"@types/node": "^14.14.2",
+		"@types/sortablejs": "^1.10.7",
+		"@types/uuid": "^8.3.0",
+		"obsidian": "latest",
+		"rollup": "^2.32.1",
+		"rollup-plugin-img": "^1.1.0",
+		"tslib": "^2.0.3",
+		"typescript": "^4.0.3"
+	},
+	"dependencies": {
+		"@types/uikit": "^3.3.2",
+		"clipboardy": "^2.3.0",
+		"moment": "^2.29.1",
+		"sortablejs": "^1.14.0",
+		"string-replace-async": "^2.0.0",
+		"uuid": "^8.3.2"
+	}
+}
